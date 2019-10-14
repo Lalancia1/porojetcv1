@@ -1,0 +1,342 @@
+body{
+    border:2px solid;
+}
+#bouton{
+    box-shadow:5px 8px 10px black;
+
+}
+
+#totalpagecv{
+margin: auto;
+    width: 1010px;
+    height: 800px;
+
+}
+
+#accueil{
+
+    width: 80px;
+    height: 40px;
+    background: yellowgreen;
+    text-align: center;
+
+}
+#text1{
+
+}
+#compétenceflecheEtText{
+
+    width: 250px;
+    height: 200px;
+}
+#flêche1{
+margin-top: 50px;
+    margin-left: 100px;
+    width: 200px;
+    height:60px ;
+
+}
+#carréflech1{
+
+ width: 140px;
+    height: 60px;
+}
+#carréflech1Bis1{
+
+    background-color: yellowgreen;
+
+    width: 100px;
+    height:30px ;
+
+}
+#carréflech1Bis2{
+    background-color: yellowgreen;
+    box-shadow:20px 30px 40px lawngreen;
+    width:40px ;
+    height:30px ;
+
+}
+#trianglflech1{
+    display: flex;
+    box-shadow:20px 30px 40px lawngreen;
+    position: relative;
+    border-top:60px solid transparent;
+    border-left:60px solid transparent;
+    border-right: 60px solid  yellowgreen;
+    margin-left:-80px;
+    margin-top: -20px;
+    transform:rotateZ(-45deg);
+}
+#textF{
+    position:absolute;
+    width: 150px;
+    height: 40px;
+margin-left: 80px;
+    margin-top:-100px
+
+}
+#liste1{
+border:3px solid;
+    border-radius:10px;
+    width: 500px;
+    height: 130px;
+background-color: goldenrod;
+    position: absolute;
+    display: block;
+    margin-left:350px ;
+    margin-top:-150px ;
+    box-shadow:20px 30px 40px black;
+}
+#formulaire{
+    margin-top: -150px;
+    vertical-align: central;
+    width: 700px;
+    height: 200px;
+
+
+}
+#flêcheAcôtéFormulaire{
+    width: 80px;
+
+    margin-left:150px;
+    margin-top:200px;
+}
+.label{
+
+    text-align: center;
+}
+
+#compétenceflecheEtText1{
+    width: 350px;
+    height: 200px;
+    margin-left: 100px;
+}
+#flêche2{
+    position:absolute;
+    margin-top: 60px;
+    margin-left: -20px;
+    width: 200px;
+    height:60px ;
+}
+#carréflech2{
+
+    width: 140px;
+    height: 60px;
+
+}
+#carréflech1Bis3{
+
+    background-color: yellowgreen;
+    width: 100px;
+    height:30px ;
+    box-shadow:20px 30px 40px lawngreen;
+
+}
+#carréflech1Bis4{
+    background-color: yellowgreen;
+    width:40px ;
+    height:30px ;
+    box-shadow:20px 30px 40px lawngreen;
+}
+#trianglflech3{
+    display: flex;
+    position: relative;
+    box-shadow:20px 30px 40px lawngreen;
+    border-top:60px solid transparent;
+    border-left:60px solid transparent;
+    border-right: 60px solid  yellowgreen;
+    margin-left:-80px;
+    margin-top: -20px;
+    transform:rotateZ(-45deg);
+}
+#text2{
+    width: 150px;
+    height: 40px;
+
+
+}
+#text10{
+    width: 120px;
+
+    text-align: center;
+}
+#listeDansLeFormulaire{
+    box-shadow:20px 30px 40px black;
+    width: 450px;
+border:3px solid;
+    border-radius:10px;
+    padding-top:-10px;
+    display: block;
+    margin-left:350px ;
+    margin-top: -230px;
+
+}/*debut toisieme bloc*/
+#compétenceflecheEtText1{
+    width: 250px;
+    height: 200px;
+}
+#flêche2{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 200px;
+    height:60px ;
+}
+#carréflech2{
+
+    width: 140px;
+    height: 60px;
+
+}
+#carréflech1Bis3{
+
+    background-color: yellowgreen;
+    width: 100px;
+    height:30px ;
+
+}
+#carréflech1Bis4{
+    background-color: yellowgreen;
+    width:40px ;
+    height:30px ;
+
+}
+#trianglflech3{
+    display: flex;
+    position: relative;
+    border-top:60px solid transparent;
+    border-left:60px solid transparent;
+    border-right: 60px solid  yellowgreen;
+    margin-left:-80px;
+    margin-top: -20px;
+    transform:rotateZ(-45deg);
+}
+#text2{
+    width: 150px;
+    height: 40px;
+
+
+}
+
+#textVert{
+    width: 150px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top:80px
+}
+#text10{
+    width: 120px;
+
+    text-align: center;
+}
+#laDivFormation{
+    width: 800px;
+    height: 450px;
+}
+#listeYY{
+    position:absolute;
+    border:3px solid;
+    box-shadow:20px 30px 40px black;
+    border-radius:10px;
+    padding-top:-10px;
+    display: block;
+    margin-left:350px ;
+    margin-top: 50px;
+    visibility: hidden;
+    background-color: yellowgreen;
+    animation-name: formation;
+    animation-duration: 7s;
+    animation-timing-function:ease ;
+    animation-direction: alternate-reverse;
+    animation-iteration-count:2;
+
+}
+@keyframes formation {
+    0%{visibility: hidden;}
+    10% { visibility: visible; }
+    20% {transform: translateZ(400px)scale(0.5,0.5);}
+    50%{transform: translateZ(400px)scale(1,1) ;}
+    80%{transform: translateZ(400px)scale(2,2);}
+    100%{visibility:hidden;}
+
+}
+#monIdentitéPropre{
+    position: absolute;
+    border: 1px solid;
+    border-radius:4px;
+    background-color: blanchedalmond;
+right: 50px;
+margin-right: 50px;
+    margin-top: -50px;
+    width: 250px;
+    height: 150px;
+}
+/*debut troisieme bloc*/
+#compétenceflecheEtText1{
+    width: 250px;
+    height: 200px;
+}
+
+
+}
+#flêche2{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 200px;
+    height:60px ;
+}
+#carréflech2{
+
+    width: 140px;
+    height: 60px;
+
+}
+#carréflech1Bis3{
+
+    background-color: yellowgreen;
+    width: 100px;
+    height:30px ;
+    box-shadow: 10px 20px 30px;
+
+}
+#carréflech1Bis4{
+    background-color: yellowgreen;
+    width:40px ;
+    height:30px ;
+   box-shadow: 10px 20px 30px lawngreen;
+
+}
+#trianglflech3{
+    display: flex;
+    position: relative;
+    border-top:60px solid transparent;
+    border-left:60px solid transparent;
+    border-right: 60px solid  yellowgreen;
+    margin-left:-80px;
+    margin-top: -20px;
+    transform:rotateZ(-45deg);
+    box-shadow:10px 20px 30px lawngreen;
+}
+#text2{
+    width: 150px;
+    height: 40px;
+
+
+}
+#text10{
+    width: 120px;
+
+    text-align: center;
+}
+#liste2{
+    background-color: green;
+    border-radius:10px;
+    border:3px solid;
+    padding-top:-50px;
+    display: block;
+    margin-left:350px ;
+    margin-top: -400px;
+    box-shadow:20px 30px 40px black;
+}/*debut toisieme bloc*/
+
+
+}/*debut quatrieme bloc bloc*/

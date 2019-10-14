@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>deuxiemepageProjetCV</title><script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="projetcv2.css">
+    <script type="text/javascript" src="projetcv2.js">
+    </script>
+</head>
+<body>
+<div id="totalpagecv"><!--la div générale-->
+    <div id="Experience">
+    <div id="accueil"><!--la div de l'accueil-->
+    <a href="projetcv1.html"><p id="bouton">Accueil</p>
+    </a>
+    </div>
+    <div id="compétenceflecheEtText"> <!--la div  generale des competences-->
+
+        <div id="flêche1"><!--toute la flêche-->
+            <h1 id="text1"><pre>EXPERIENCES PROFESSIONNELLES</pre></h1>
+
+            <div id="carréflech1"><!--les deux carrés le petit et le plus grand-->
+                <div  id="carréflech1Bis1">
+
+                </div>
+                <div id="carréflech1Bis2">
+
+                     </div>
+                <span id="trianglflech1"></span>
+
+            </div><!--fin des carrés grand+ petit-->
+
+        </div><!--fin de la flêche-->
+
+    </div>
+    <div  id="liste1">
+        <ul id="text8">
+            <li>
+                1994  BAC D(sciences naturelles,mathématiques ,physique-chimie)
+            </li>
+        </ul>
+            <ul id="text3"><li>
+              2016-2018  OUVRIERE DANS LE BATIMENT
+            </li></ul>
+            <ul id="text4">
+                <li>
+                1999-2016    AUXILIAIRE DE GERIATRIE
+                </li>
+            </ul>
+
+    </div>
+    <div>
+<div>
+    </div>
+<div id="formulaire"><!--bloc qui devrait être a côté du formulaire-->
+    <div id="flêcheAcôtéFormulaire">
+    <div id="carréflech2"><!--les deux carrés le petit et le plus grand-->
+        <div  id="carréflech1Bis3">
+
+        </div>
+        <div id="carréflech1Bis4">
+
+        </div>
+        <span id="trianglflech3">
+
+        </span>
+
+    </div><!--fin des carrés grand+ petit-->
+
+   </div><!--fin de la flêche-->
+
+</div>
+        <div  id="listeDansLeFormulaire">
+            <ul id="text8">
+                <li>
+                    1994  BAC D(sciences naturelles,mathématiques ,physique-chimie)
+                </li>
+            </ul>
+            <ul id="text9">
+                <li>
+                    1995  PREMIERE ANNEE PHYSIQUE CHIMIE
+                </li>
+            </ul>
+
+        </div>
+        <div id="monIdentitéPropre">
+<form method="post"  action="traitement.php">
+    <label class="nom" name="nom">nom
+        <input type="text" class="rally" name="nom" placeholder="nom"
+               id="no" required="required" pattern="[0-9 a-z A-Z \.]{3 12}">
+    </label><br>
+
+
+    <label class="label">email
+    <input type="email" name="email" class="controle"
+            placeholder="mail@serveur.com">
+    </label><br>
+
+        <label class="label">
+             date de naissance
+            <input type="date" class="controle" name="date" >
+        </label><br>
+        <input type="submit" value="Envoyez" >
+
+
+</form>
+        </div>
+</div>
+        <div  id="lesDeuxDivAnimation">
+<div id="laDivFormation1" >
+<div id="flêche2"><!--toute la flêche-->
+    <div id="text10">
+        <h1 id="textF"><pre>FORMATION</pre></h1>
+
+  </div>
+    <div id="carréflech2"><!--les deux carrés le petit et le plus grand-->
+        <div  id="carréflech1Bis3">
+
+        </div>
+        <div id="carréflech1Bis4">
+
+        </div>
+        <span id="trianglflech3">
+
+        </span>
+
+    </div><!--fin des carrés grand+ petit-->
+
+</div><!--fin de la flêche-->
+
+     </div>
+        <div  id="listeYY" class="lautreClassique"><!--ladiv qui disparait-->
+            <ul id="text8">
+                <li>
+                    1994  BAC D(sciences naturelles,mathématiques ,physique-chimie)
+                </li>
+            </ul>
+            <ul id="text9">
+                <li>
+                    1995  PREMIERE ANNEE PHYSIQUE CHIMIE
+                </li>
+            </ul>
+
+        </div>
+   <!--DEBUT TROISIEME BLOC-->
+
+       <!-- debut de mon quatrieme bloc, celui du clic--coucou!-->
+
+        <div id="laDivFormation">
+            <div id="flêche2"> <!--toute la flêche-->
+                <div id="text10">
+                    <h1 id="textVert"><pre>COMPETENCE</pre></h1>
+
+                </div>
+                <div id="carréflech2"><!--les deux carrés le petit et le plus grand-->
+                    <div  id="carréflech1Bis3">
+
+                    </div>
+                    <div id="carréflech1Bis4">
+
+                    </div>
+                    <span id="trianglflech3">
+
+        </span>
+
+                </div><!--fin des carrés grand+ petit-->
+
+            </div><!--fin de la flêche-->
+
+        </div>
+        </div>
+
+        <div  id="liste2" onclick="start()" >
+            <ul   id="text8">
+                <li>
+                    HTML:40%   CSS:40%
+                </li>
+            </ul>
+            <ul id="text9">
+                <li>
+                    AUTRES LANGAGES EN COURS DE FORMATION.
+                </li>
+            </ul>
+
+        </div>
+
+
+
+    </div>
+
+</body>
+</html>
