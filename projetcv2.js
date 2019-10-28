@@ -1,19 +1,11 @@
 alert("hello!");
+var idListeYY = document.getElementById('listeYY');
+var idlaDivDuClick = document.getElementById('liste2');
 function start() {
-    var idListeyy = document.getElementById("listeyy").classList.add("laClassListeyy");
-   /* var idlaDivDuClick = document.getElementById("liste2");*/
+    var idListeYY = document.getElementById('listeYY');
 
-    interId = setInterval(function () {
-        if (idListeyy.style.opacity === 0) {
-            idListeyy.style.opacity = 0.1;
-            idListeyy.style.animation = "formation 7s ease";
-        }
-        if (idListeyy.style.opacity > 0) {
-            idListeyy.style.opacity = 1;
-            idListeyy.style.animation = "formation 7s ease";
-
-        } else {
-            clearInterval(interId);
-        }
-    }, 200);
-}
+  var  interId = setInterval(function (){
+          idListeYY.style.visibility='visible';
+          idListeYY.display.animation='formation ease 7s';
+      }
+,200);}
